@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: Site Title
+title: Egor Ignatenkov's personal websit
 locale: en_US
-description: Describe your website here.
+description: blog etc.
 logo: site-logo.png
 search: true
-url: http://localhost:4000
+url: http://eignatenkov.github.io
 
 # Jekyll configuration
 
@@ -20,6 +20,8 @@ gems:
   - jekyll-gist
 
 kramdown:
+  input: GFM
+  hard_wrap: false
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
